@@ -1,0 +1,13 @@
+# Core CrewAI libraries
+crewai==0.28.8
+crewai_tools==0.1.6
+langchain_community==0.0.29
+
+# OpenAI client for GPT-3.5-Turbo
+openai>=0.27.0
+
+# Load .env files (for your API key)
+python-dotenv>=0.21.0
+
+argparse>=1.4.0
+rich>=13.3.4
