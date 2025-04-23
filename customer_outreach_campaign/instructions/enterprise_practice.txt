@@ -1,0 +1,25 @@
+## 3. Large Dental Service Organizations & Enterprise Networks
+
+### Introduction  
+Enterprises need strategic partners who can integrate at scale, deliver actionable insights, and drive innovation across hundreds of clinics.
+
+### Key Points to Address  
+- **Enterprise-Grade Integration:** Stress OneAPI’s ability to connect complex legacy systems.  
+- **Advanced Analytics:** Showcase Prime’s deep-dive dashboards and custom reporting.  
+- **Strategic Partnership:** Highlight Sikka’s roadmap for co-innovation.
+
+### Template Message  
+```text
+Subject: Partnering with [Organization Name] for Next-Gen Dental Insights
+
+Hello [Recipient Name],
+
+With [Organization Name] overseeing [X] practices nationwide, you’re leading the way in dental care. At Sikka, we partner with large DSOs to deliver robust, enterprise-grade data integration and analytics.
+
+Our OneAPI platform seamlessly unites disparate systems into a single source of truth. Prime then transforms that data into operational and financial insights—complete with customizable dashboards and reporting. And through our co-innovation program, we evolve our roadmap in lockstep with partners like you.
+
+Can we set up a 30-minute executive briefing to discuss how Sikka can drive efficiency, profitability, and innovation across [Organization Name]’s network?
+
+Sincerely,  
+[Your Name]  
+[Title], Sikka.ai

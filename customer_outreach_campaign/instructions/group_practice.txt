@@ -1,0 +1,25 @@
+## 2. Mid-Sized Group Practices
+
+### Introduction  
+Group practices juggle multiple providers, locations, and systems—so scalability and data consistency are mission-critical.
+
+### Key Points to Address  
+- **Scalability:** Emphasize how OneAPI unifies multiple locations.  
+- **Data-Driven Decisions:** Show how Fee Survey and Prime analytics drive better fee schedules.  
+- **Seamless Integration:** Highlight Optimizer’s plug-and-play connectors.
+
+### Template Message  
+```text
+Subject: Scaling [Practice Name]’s Efficiency with Sikka OneAPI
+
+Dear [Recipient Name],
+
+Congratulations on expanding to [X] locations—what an exciting milestone! At Sikka, we understand that as you grow, keeping billing, payments, and analytics in sync becomes a real challenge.
+
+Our OneAPI platform centralizes data from every site into one dashboard, while our Fee Survey benchmarks ensure you’re competitively priced across the region. And with Optimizer, your billing team can automate claim status checks and denials follow-up, freeing them to focus on patient care.
+
+Would you be open to a 20-minute demo to explore how Sikka can help [Practice Name] streamline operations and boost revenue across all of your locations?
+
+Best regards,  
+[Your Name]  
+[Title], Sikka.ai

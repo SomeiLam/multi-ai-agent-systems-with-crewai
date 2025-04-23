@@ -1,0 +1,17 @@
+# Core SDK and tools
+crewai>=0.1.0
+crewai-tools>=0.1.0
+
+# HTTP & environment
+requests>=2.28.0
+python-dotenv>=0.21.0
+
+# Rich text output
+rich>=13.0.0
+
+# Browser automation for JS-rendered docs
+selenium>=4.8.0
+webdriver-manager>=3.8.5
+
+# (Optional) OpenAI client if you call OpenAI directly elsewhere
+openai>=0.27.0
