@@ -157,17 +157,6 @@ sikka_outreach_task = Task(
     agent=email_agent,
 )
 
-
-# inputs = {
-#     "lead_name": "DeepLearningAI",
-#     "industry": "Online Learning Platform",
-#     "key_decision_maker": "Andrew Ng",
-#     "position": "CEO",
-#     "milestone": "product launch"
-# }
-
-# result = crew.kickoff(inputs=inputs)
-
 # ────────────── Crew & Helper ──────────────
 crew = Crew(
     agents=[
@@ -217,6 +206,23 @@ if __name__ == "__main__":
     )
     print(emails_md)
 
-# from IPython.display import Markdown
-# # pull out the raw text from the CrewOutput
-# Markdown(result.raw)
+# ────────────── Example Output ──────────────
+# ```text
+# Subject: Elevate Maple Grove Dental’s Performance with Sikka OneAPI
+
+# Dear Dr. Jim Tauschek,
+
+# I hope this message finds you well. Your dedication to providing a wide range of dental services from general dentistry to advanced orthodontics at Maple Grove Dental is truly impressive. We recently came across your excellent survey results and think that there’s a great match between your technological aspirations and our solutions.
+
+# At Sikka.ai, we recognize that managing such a diverse and technologically advanced practice is no small feat. That's where our OneAPI platform can play a pivotal role. It’s designed to seamlessly connect all your technological systems, ensuring that data flows smoothly between your operations without any hitches.
+
+# Our Fee Survey and Sikka Prime analytics can further help you fine-tune your services’ pricing structure to stay competitive in Madison’s dynamic market. Coupling this with our Optimizer, which automates routine billing and administrative tasks, could free up your team to focus even more on patient care and less on paperwork.
+
+# How about we schedule a quick 20-minute call to discuss how these tools can specifically benefit Maple Grove Dental? I’d love to show you how we can assist in streamlining your operations and enhancing your service delivery.
+
+# Looking forward to your thoughts.
+
+# Best regards,
+# [Your Name]
+# Marketing Communications Manager, Sikka.ai
+# ```
