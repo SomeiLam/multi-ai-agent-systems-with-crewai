@@ -8,18 +8,6 @@ from rich.markdown import Markdown
 openai_api_key = get_openai_api_key()
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
 
-## ── parse the topic from the CLI ───────────────────────────────
-parser = argparse.ArgumentParser(
-  description="Run the research_write_article crew with a given topic."
-)
-parser.add_argument(
-  "topic",
-  help="The topic you want the agents to research and write about"
-)
-
-args = parser.parse_args()
-console = Console()
-
 planner = Agent(
   role="LinkedIn Content Planner",
   goal=(
@@ -112,12 +100,11 @@ edit = Task(
     ),
     expected_output=(
         "A final LinkedIn post draft that perfectly follows best practices, "
-        "with a clear call-to-action placed above the hashtags, hashtags at the bottom, "
+        "with a clear call-to-action placed above the hashtags with a new line, hashtags at the bottom, "
         "and enhanced emoji usage, ready to copy-paste into LinkedIn."
     ),
     agent=editor
 )
-
 
 crew = Crew(
   agents=[planner, writer, editor],
@@ -126,10 +113,8 @@ crew = Crew(
 )
 
 # Kick it off
-# if __name__ == "__main__":
-#   topic = args.topic
-#   result = crew.kickoff(inputs={"topic": topic})
-#   console.print(Markdown(result))
+if __name__ == "__main__":
+  result = crew.kickoff(inputs={"topic": "The Future of AI in Healthcare"})
 
 # Example topics to try:
 # - "The Future of AI in Healthcare"

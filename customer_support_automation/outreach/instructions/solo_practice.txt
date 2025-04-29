@@ -1,0 +1,25 @@
+## 1. Solo/Small Dental Practices
+
+### Introduction  
+Solo practitioners value simplicity, reliability, and a partner who understands the day-to-day realities of running a one-or-two-chair office.
+
+### Key Points to Address  
+- **Ease of Use:** Show how OneAPI or Prime integrates without adding admin burden.  
+- **Cost-Effectiveness:** Highlight Fee Survey insights that help optimize their pricing.  
+- **Personal Support:** Emphasize Sikka’s dedicated customer success resources.
+
+### Template Message  
+```text
+Subject: Helping [Practice Name] Simplify Billing & Boost Revenue
+
+Hello Dr. [LastName],
+
+I noticed [Practice Name] has been recognized for its outstanding patient care—congratulations on that well-deserved reputation! At Sikka, we built OneAPI to make billing, payments, and data insights effortless for busy solo practices like yours.
+
+With our Fee Survey benchmark, you’ll see exactly where you stand on pricing, and with Optimizer, you can automate claims follow-up without another layer of complexity. Our dedicated support team becomes an extension of your practice—so you’re never on your own.
+
+Could we schedule a 15-minute call next week to show you how [Practice Name] can start saving time and increasing collections immediately?
+
+Warm regards,  
+[Your Name]  
+[Title], Sikka.ai

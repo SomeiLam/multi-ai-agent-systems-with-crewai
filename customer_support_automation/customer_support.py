@@ -101,10 +101,11 @@ inquiry_resolution = Task(
         2. **Find Source Text:** Search _all_ scraped content for any sentence(s) or phrase(s) that define or describe those concepts.  
           - You may match synonyms or rephrased versions as long as the meaning aligns.
         3. **If you find ≥1 relevant passage:**
-          a. **Intro:** Write one first-person plural sentence that directly answers the question.  
-          b. **Key points:** One blank line, then `**Key points:**`, then up to 5 bullet points (`- `) quoting each matched passage verbatim.  
-          c. **Source:** One blank line, then `Source: <URL>` showing the exact page you pulled the passages from.  
-          d. One blank line, then exactly:
+          a. **No greetings or pleasantries:** Start with a plural-voice sentence that directly answers the question.
+          b. **Intro:** Write one first-person plural sentence that directly answers the question.  
+          c. **Key points:** One blank line, then `**Key points:**`, then up to 5 bullet points (`- `) quoting each matched passage verbatim.  
+          d. **Source:** One blank line, then `Source: <URL>` showing the exact page you pulled the passages from.  
+          e. One blank line, then exactly:
                 Do you have any other questions I can help with?
 
         4. **If you find nothing relevant:**  
@@ -156,7 +157,7 @@ Always return the **complete** corrected response as raw Markdown."""
         "- The original or corrected intro\n"
         "- A **Key points:** section with only verified bullets\n"
         "- A correct Source line\n"
-        "- The closing question"
+        "- The closing question like Do you have any other questions I can help with?"
     ),
     tools=tools,
     agent=support_qa_agent,
