@@ -1,7 +1,7 @@
 import json
 import re
 import logging
-from typing import List, Optional
+from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -151,27 +151,6 @@ async def plan_event(req: EventRequest):
 
     # 7) Return validated Pydantic model
     return MarketingBundle(**data)
-# async def plan_event(req: EventRequest):
-#     raw = await kickoff_crew(event_management_crew, req.dict())
-
-#     # pull out the first JSON object
-#     match = re.search(r"(\{[\s\S]*?\})", raw)
-#     if not match:
-#         logger.error("No JSON object in plan-event output: %s", raw)
-#         raise HTTPException(status_code=500, detail="Invalid agent response format")
-
-#     body = match.group(1).strip()
-#     if body.startswith("```"):
-#         lines = body.splitlines()[1:-1]
-#         body = "\n".join(lines).strip()
-
-#     try:
-#         data = json.loads(body)
-#         return data  # Pydantic will coerce into MarketingBundle
-#     except json.JSONDecodeError as e:
-#         logger.error("Failed to parse plan-event JSON: %s", e)
-#         raise HTTPException(status_code=500, detail="Error parsing AI output")
-
 
 
 @app.post("/outreach-email", response_model=OutreachEmailResponse)
